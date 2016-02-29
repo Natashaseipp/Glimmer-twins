@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			header {
+				width: 1000px;
+				height: 250px;
+				background: blue;
+				color: white;
+				font-size: 40px;
+				margin: 62px;
+				padding-top: 42px;
+			}
+			nav {
+				width: 1000px;
+				height: 25px;
+				background: purple;
+				margin: -45px 62px;
+			}
+			#content {
+				width: 1000px;
+				height: 700px;
+				background: maroon;
+				margin: 62px;
+			}
+			article {
+				width: 360px;
+				height: 400px;
+				background: red;
+				float: left;
+				margin: 50px;
+				padding: 20px;
+			}
+			section {
+				width: 360px;
+				height: 400px;
+				background: green;
+				float: right;
+				margin: 50px;
+				padding: 20px;
+			}
+			footer {
+				width: 1000px;
+				height: 351px;
+				background: silver;
+				margin: 62px;
+			}
+			#page {
+				width: 1200px;
+				margin: auto;
+			}
+			#logo {
+				position: relative;
+				top: 30px;
+				left: 100px;
+				width: 100px;
+				height: 100px;
+				background: cyan;
+			}
+			
+			nav ul {
+				padding: 0px;
+			}
+			
+			nav > ul > li {
+				display: inline;
+				color: white;
+				margin-right: 15px;
+				margin-left: 15px;
+				border-left: 2px solid white;
+				border-right: 2px solid white;
+				padding: 0px 12px 0px 12px;
+				font-size: 22px;
+			}
+			
+			nav > ul > li:hover > ul{
+				display: block;
+			
+			}
+			
+			.drop {
+				float: left;
+				margin: -93px 36px;
+				display: none;
+			
+				padding: 0px;
+				background-color: lightpink;
+				position: relative;
+				top: 130px;
+			}
+			
+			
+			#customers {
+				border: 5px solid blue;
+				background: white
+			}
+			
+		</style>
+	</head>
+	<body>
+	
+		<div id="page">
+	
+			<header>
+			<div id="logo">Logo</logo>
+			This is the Header
+			</header>
+			<nav>
+				<ul>
+					<li>Orange Chicken
+						<ul class="drop">
+							<li>Hot</li>
+							<li>Fire</li>
+							<li>Mild</li>
+							<li>Scorching</li>
+							<li>Caliente</li>
+							<li>Wimpy</li>
+						</ul>
+					</li>
+					<li>Chow Mein</li>
+					<li>Pot stickers</li>
+					<li>Lo Mein</li>
+					<li>Broccoli and Beef</li>
+					<li>Rice</li>
+				</ul>
+			</nav>
+			<div id="content">
+				<h2>Customer List</h2>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Phone</th>
+					<th>Age</th>
+				</tr>
+				<tr>
+					<td>Super Mario</td>
+					<td>555-555-5555</td>
+					<td>30</td>
+				</tr>			
+				<tr>
+					<td>Picasso</td>
+					<td>555-555-1234</td>
+					<td>Dead</td>
+				</tr>
+				<tr>
+					<td>Al Ravioli</td>
+					<td>555-555-6541</td>
+					<td>53</td>
+				</tr>
+				<tr>
+					<td>Chef Boyarde</td>
+					<td>555-555-7894</td>
+					<td>86</td>
+				</tr>
+				<tr>
+					<td>Super Luigi</td>
+					<td>555-555-5555</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Bowser Kingkong</td>
+					<td>555-555-3541</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Michelle Obama</td>
+					<td>555-555-9874</td>
+					<td>73</td>
+				</tr>
+				<tr>
+					<td>Frank Sinatra</td>
+					<td>555-555-5678</td>
+					<td>Dead</td>
+				</tr>
+				<tr>
+					<td>Robert Denaro</td>
+					<td>555-555-9875</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Papa John</td>
+					<td>555-555-9512</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Tim Berners-Lee</td>
+					<td>555-555-3331</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Miles Davis</td>
+					<td>555-555-6547</td>
+					<td>84</td>
+				</tr>
+				<tr>
+					<td>Donald Trump</td>
+					<td>555-555-6542</td>
+					<td>65</td>
+				</tr>
+			</table>
+				<article>
+					<h3>Pizza Tacos are back!</h3>
+					<p>Pizza tacos are back at taco bell for a limited time only.</p>
+				</article>
+				<section>
+					<h2>Food section</h2>
+					<p>Try our delicious food from Yugoslavia</p>
+				</section>
+			</div>
+			<footer>Copyright Alveyworld 2015 &copy;</footer>
+			
+			
+		</div>
+	</body>
+</html>

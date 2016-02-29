@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Map Practice</title>
+<style>
+body {
+	background: #3C3;
+}
+#unitedstates {
+	width: 800px;
+	height: 600px;
+	margin:auto;
+	text-align:center;
+	vertical-align:middle;
+	background:#C30;
+	-webkit-box-shadow: 0 0 10px 10px #4DA6FF;
+	box-shadow: 0 0 10px 10px #4DA6FF;
+	-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+<div id="unitedstates">
+<h2>United States of America</h2>
+<p>Click a state to go to its website</p>
+<img src="united-states-map.gif" usemap="#America"/>
+<map name="America">
+	<area shape="rect" coords="187,87,275,155" alt="Wyoming" href="http://wyoming.gov">
+	<area shape="rect" coords="212,156,299,218" alt="Colorado" href="http://colorado.gov">
+	<area shape="poly" coords="124,15,124,32,128,37,130,43,132,45,136,50,140,55,146,57,146,62,144,67,145,70,144,75,146,77,150,75,153,76,157,76,157,85,157,89,160,90,164,97,167,95,171,96,180,93,183,92,187,95,187,87,274,87,275,14,124,15" alt="Montana" href="http://www.montana.gov">
+	<area shape="poly" coords="150,139,150,218,212,219,212,156,187,155,187,139,150,139" alt="Utah" href="http://www.utah.gov">
+	<area shape="poly" coords="76,139,76,188,143,248,144,247,142,243,142,236,141,234,142,233,148,233,149,233,150,139,76,139" alt="Nevada" href="http://www.nv.gov">
+	<area shape="poly" coords="" alt="" href=""
+</div>
+</body>
+</html>
